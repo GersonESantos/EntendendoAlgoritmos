@@ -35,5 +35,5 @@ int binarySearch(int list[], int item, int len)
             low = mid + 1;
         }
     }
-    return -1; //number not found
+    return -7; //number not found
 }
