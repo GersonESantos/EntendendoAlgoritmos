@@ -4,7 +4,7 @@ int binarySearch(int[], int, int);
 
 int main()
 {
-    int myList[] = {0, 1, 2, 3, 5, 7, 9, 11};
+    int myList[] = {0, 1, 2, 3, 5, 7, 9};
     
     int len = sizeof(myList) / sizeof(myList[0]);
 
@@ -35,5 +35,5 @@ int binarySearch(int list[], int item, int len)
             low = mid + 1;
         }
     }
-    return -7; //number not found
+    return -1; //number not found
 }
